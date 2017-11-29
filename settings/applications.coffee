@@ -13,4 +13,4 @@ Settings.application =
     atom: "Atom"
     adam: "Atom"
     safari: "Safari"
-    fire: "Firefox"
+    slack: "Slack"
