@@ -59,32 +59,14 @@ pack.commands
 ###########
 # nico additions
 
-  # 'insert-cell-below':
-  #   spoken: 'insert below'
-  #   description: 'insert cell below'
-  #   action: ->
-  #     @do 'jupyter:jupyter-pallet'
-  #     @delay 100
-  #     @string 'insert cell below'
-  #     @delay 10
-  #     @key 'enter'
-  #     @key 'enter'
+
   'insert-cell-below':
     spoken: 'insert below'
     description: 'insert cell below'
     action: ->
       @key 'escape'
       @key 'b'
-  # 'insert-cell-above':
-  #   spoken: 'insert above'
-  #   description: 'insert cell above'
-  #   action: ->
-  #     @do 'jupyter:jupyter-pallet'
-  #     @delay 100
-  #     @string 'insert cell above'
-  #     @delay 10
-  #     @key 'enter'
-  #     @key 'enter'
+
   'insert-cell-above':
     spoken: 'insert above'
     description: 'insert cell above'
@@ -102,15 +84,14 @@ pack.commands
       @delay 10
       @key 'enter'
       @key 'enter'
+
   'change-cell-to-markdown':
     spoken: 'markey'
     description: 'change cell to markdown'
     action: ->
-      @do 'jupyter:jupyter-pallet'
-      @delay 100
-      @string 'change cell to markdown'
-      @delay 10
-      @key 'enter'
+      @key 'escape'
+      @key 'm'
+
   'html-danger':
     spoken: 'html danger'
     description: 'type the html necessary to turn a markdown box red'

@@ -6,6 +6,7 @@ Settings.application =
     slack: "Slack"
     launchpad: "Launchpad"
     "wave box": "Wavebox"
+    pages: "Pages"
 
   firstNameBasis:
     chrome: "Google Chrome"
